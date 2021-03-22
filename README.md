@@ -45,11 +45,22 @@
 
 ![Vehicle test mileage Histogram](./images/testmileage_histplot.png)
 
-### Scatter plot grid to show how the above changes by vehicle make
+### Box plot of vehicle age and mileage
+- There is a distinguishable difference in the distribution of mileage and age for test passes compared to test fails.
+
+![Box plot of mileage](./images/boxplot_mileage.png)
+![Box plot of age](./images/boxplot_age.png)
+
+### Scatter plot grid of mileage vs age by test result
+- Really just visualises the above in 2 dimensions.
+
+![Scatter plot grid by test result](./images/pairplot_bytestresult.png)
+
+### Scatter plot grid dividing the above plot by vehicle make
 - There is *some* visible relationship between vehicle_age vs test_mileage
 - The relationship appears to be distonguishable between different vehicle makes (e.g. compare Audi vs Ford)
 - Vehicle "make" may therefore be a good feature to add in the modelling stage.
-![Scatter plot grid by test result](./images/pairplot_bytestresult.png)
+
 ![Scatter plot grid by vehicle make](./images/pairplot_bymake.png)
 
 ### Scatter (pair) plot over all continuous features
