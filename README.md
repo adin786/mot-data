@@ -47,6 +47,7 @@
 
 ### Box plot of vehicle age and mileage
 - There is a distinguishable difference in the distribution of mileage and age for test passes compared to test fails.
+- Suggests these 2 features will be useful in predictive modelling.
 
 ![Box plot of mileage](./images/boxplot_mileage.png)
 ![Box plot of age](./images/boxplot_age.png)
@@ -59,7 +60,7 @@
 ### Scatter plot grid dividing the above plot by vehicle make
 - There is *some* visible relationship between vehicle_age vs test_mileage
 - The relationship appears to be distonguishable between different vehicle makes (e.g. compare Audi vs Ford)
-- Vehicle "make" may therefore be a good feature to add in the modelling stage.
+- Vehicle "make" may therefore be useful feature for predictive modelling.
 
 ![Scatter plot grid by vehicle make](./images/pairplot_bymake.png)
 
